@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>여행앨범 — 개인정보처리방침 및 지원</title>
+<style>
+  :root { color-scheme: light dark; --fg: #1d1d1f; --muted: #6e6e73; --bg: #fff; --card: #f5f5f7; }
+  @media (prefers-color-scheme: dark) { :root { --fg: #f5f5f7; --muted: #a1a1a6; --bg: #000; --card: #1c1c1e; } }
+  body { margin: 0; padding: 40px 16px 80px; background: var(--bg); color: var(--fg);
+         font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; }
+  h1 { font-size: 28px; margin: 0 0 4px; }
+  h2 { font-size: 20px; margin: 40px 0 12px; }
+  h3 { font-size: 16px; margin: 24px 0 6px; }
+  p, li { color: var(--fg); }
+  .muted { color: var(--muted); font-size: 14px; }
+  .card { background: var(--card); border-radius: 14px; padding: 16px 20px; margin: 16px 0; }
+  a { color: #0a84ff; text-decoration: none; }
+  footer { margin-top: 56px; color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>여행앨범</h1>
+  <p class="muted">사진 보관함을 도시별·기간별로 정리하는 iPhone 앱 · made by Rick's Lab</p>
+
+  <h2 id="privacy">개인정보처리방침</h2>
+  <p class="muted">시행일: 2026년 10월 9일</p>
+
+  <div class="card">
+    <strong>요약</strong>
+    <ul>
+      <li>여행앨범은 <strong>어떤 개인정보도 수집하거나 서버로 보내지 않습니다.</strong> 앱에는 서버가 없습니다.</li>
+      <li>사진과 정리 결과는 모두 <strong>사용자의 기기 안</strong>에만 저장됩니다.</li>
+      <li>지역 이름을 알아내기 위해 사진의 <strong>좌표(약 5km 격자 단위로 뭉뚱그린 값)</strong>만 Apple 지도 서비스에 전송합니다. 사진 자체나 계정 정보는 전송되지 않습니다.</li>
+    </ul>
+  </div>
+
+  <h3>1. 수집하는 정보</h3>
+  <p>없습니다. 여행앨범은 회원가입이 없고, 분석 도구·광고 식별자·추적 기술을 사용하지 않습니다.</p>
+
+  <h3>2. 앱이 기기 안에서 사용하는 정보</h3>
+  <ul>
+    <li><strong>사진 메타데이터</strong> — 사진에 기록된 촬영 위치와 날짜를 읽어 도시·기간별로 묶습니다. 이미지 자체는 보여주기 위해서만 불러오며 복사하지 않습니다.</li>
+    <li><strong>지역 이름 캐시</strong> — 한 번 알아낸 지역 이름은 다음 실행에서 다시 조회하지 않도록 기기 안에 저장합니다.</li>
+    <li><strong>가리기 목록</strong> — 사용자가 앨범에서 가린 사진의 식별자를 기기 안에 저장합니다. 원본 사진은 변경되지 않습니다.</li>
+  </ul>
+  <p>이 정보는 앱을 삭제하면 함께 삭제됩니다.</p>
+
+  <h3>3. 제3자 서비스</h3>
+  <p>지역 이름을 알아내기 위해 Apple의 지도 서비스(Core Location 역지오코딩)를 사용합니다. 이때 전송되는 값은 사진의 정확한 좌표가 아니라 약 5km 격자로 뭉뚱그린 대표 좌표이며, Apple의 <a href="https://www.apple.com/kr/legal/privacy/">개인정보 보호 정책</a>이 적용됩니다. 그 밖의 외부 서비스는 사용하지 않습니다.</p>
+
+  <h3>4. 사용하는 권한</h3>
+  <ul>
+    <li><strong>사진</strong> — 사진을 정리해 보여주고, 콜라주를 만들었을 때 보관함에 저장하기 위해 사용합니다. "선택한 사진만" 모드도 지원합니다.</li>
+    <li><strong>Face ID / 암호</strong> — 가린 사진 목록을 열 때 기기 잠금으로 보호하기 위해 사용합니다. 생체 정보는 iOS가 처리하며 앱은 접근할 수 없습니다.</li>
+  </ul>
+
+  <h3>5. 아동의 개인정보</h3>
+  <p>여행앨범은 어떤 연령의 사용자에게서도 개인정보를 수집하지 않습니다.</p>
+
+  <h3>6. 변경</h3>
+  <p>방침이 바뀌면 이 페이지를 갱신하고 시행일을 수정합니다.</p>
+
+  <h2 id="support">지원</h2>
+  <h3>사진이 하나도 안 보여요</h3>
+  <p>카메라의 위치 태그가 꺼져 있으면 사진에 위치가 남지 않아 정리할 수 없습니다. iPhone의 <em>설정 → 개인정보 보호 및 보안 → 위치 서비스 → 카메라</em>에서 "앱을 사용하는 동안"으로 설정해 주세요. 이미 찍은 사진에는 적용되지 않습니다.</p>
+  <h3>일부 사진만 보여요</h3>
+  <p>사진 접근이 "선택한 사진만"으로 돼 있을 수 있습니다. 앱의 지도 탭 오른쪽 위 ⓘ → <em>사진 더 선택하기</em>에서 추가하거나, 설정에서 전체 접근으로 바꿔 주세요.</p>
+  <h3>가린 사진을 되돌리고 싶어요</h3>
+  <p>국내/해외 탭 오른쪽 위의 눈 아이콘을 누르면 가린 사진 목록이 열립니다. 사진을 길게 눌러 "다시 표시"를 선택하세요.</p>
+
+  <h3>문의</h3>
+  <p>이메일: <a href="mailto:rickslab.app@gmail.com">rickslab.app@gmail.com</a></p>
+
+  <footer>© 2026 Rick's Lab</footer>
+</main>
+</body>
+</html>
